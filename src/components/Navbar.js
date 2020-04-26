@@ -11,10 +11,10 @@ export default class Navbar extends Component {
                 <Link to="/">
                     <img src={logo} alt="store" className="navbar-brand" height="35px" />
                 </Link>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+                <div className="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
                     <ul className="navbar-nav align-items-center">
                         <li className="nav-item ml-2">
                             <Link to="/" className="nav-link">Products</Link>
