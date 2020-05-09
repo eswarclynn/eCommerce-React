@@ -40,4 +40,5 @@ const NavWrapper = styled.nav`
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
     }
+    box-shadow: 0 2px 6px 3px rgba(150,150,150,0.8);
 `
